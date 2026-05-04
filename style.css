@@ -171,3 +171,48 @@ body {
 .button:hover {
     background: #0C3D54;
 }
+
+.heading {
+    color: var(--Brand-Primary, #052838);
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    /* 100% */
+}
+
+.padding-tb {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.about {}
+
+.about__content {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about__info {
+    max-width: 788px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.about__title {}
+
+.about__text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.about__button {}
+
+.about__picture {}
+
+.about__img {}
