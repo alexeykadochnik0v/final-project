@@ -27,7 +27,7 @@ body {
 
 .hero {
     min-height: 1020px;
-    background-image: url(images/hero-building.jpg);
+    background-image: url(images/hero-building.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right top;
