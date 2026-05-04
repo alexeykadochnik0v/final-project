@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+}
+
+.title {
+    font-size: 100px;
+    font-weight: 700;
+    color: #052838;
+    line-height: 110px;
+}
+
+.center {
+    padding-left: calc(50% - 840px);
+    padding-right: calc(50% - 840px);
+}
