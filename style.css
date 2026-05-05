@@ -302,7 +302,44 @@ body {
     height: 144px;
 }
 
-.portfolio-card__title {}
+.portfolio__pagination {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.portfolio__button {
+    margin-left: auto;
+}
+
+.portfolio__pagination-number {
+    color: var(--Brand-Primary, #052838);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.portfolio__pagination-line {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 2px;
+}
+
+.portfolio__pagination-segment {
+    display: block;
+    width: 50%;
+    height: 2px;
+    background: #D7DAE2;
+}
+
+.portfolio__pagination-segment_active {
+    background: var(--Brand-Primary, #052838);
+}
 
 .portfolio-card__text {
     color: var(--Grayscale-300, #D7DAE2);
@@ -331,6 +368,11 @@ body {
     border-radius: 12px;
     background: var(--Brand-Primary, #052838);
     overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.certification-card:hover {
+    background: #0C3D54;
 }
 
 .certification-card__info {}
