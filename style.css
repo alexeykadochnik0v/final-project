@@ -316,16 +316,75 @@ body {
     /* 150% */
 }
 
-.portfolio__bottom {}
+.certifications {}
 
-.portfolio__pagination {}
+.certifications__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
 
-.portfolio__pagination-number {}
+.certification-card {
+    position: relative;
+    min-height: 280px;
+    padding: 24px;
+    border-radius: 12px;
+    background: var(--Brand-Primary, #052838);
+    overflow: hidden;
+}
 
-.portfolio__pagination-line {}
+.certification-card__info {}
 
-.portfolio__pagination-progress {}
+.certification-card__text {
+    margin-top: 8px;
+    color: var(--Grayscale-300, #D7DAE2);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
 
-.portfolio__button {}
+.certification-card__date {
+    margin-top: 8px;
+    color: #999EAD;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
 
-.button__icon {}
+.certification-card__badge {
+    position: absolute;
+    left: 24px;
+    bottom: 24px;
+    padding: 4px 12px;
+    border: 1px solid #FFF;
+    border-radius: 6px;
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.certification-card__icon {
+    position: absolute;
+    right: 32px;
+    bottom: 28px;
+}
+
+.certifications__top {
+    max-width: 100%;
+}
+
+.certifications__top .text {
+    max-width: 700px;
+}
+
+.certifications__bottom {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 56px;
+}
+
+.certifications__button {}
